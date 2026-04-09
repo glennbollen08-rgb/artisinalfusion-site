@@ -1,0 +1,223 @@
+<html>
+<head>
+	<title>Projecten - ArtisinalFusion</title>
+	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23d4af37' width='100' height='100'/><text x='50' y='70' font-size='60' font-weight='bold' text-anchor='middle' fill='%231f1f1f' font-family='Arial'>AF</text></svg>">
+	<style>
+		body {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			margin: 0;
+			padding: 0;
+			background: #1a1a1a;
+			background-image: url('https://www.transparenttextures.com/patterns/dark-wood.png');
+			color: #e0e0e0;
+		}
+		.navbar {
+			background-color: #1f1f1f;
+			overflow: hidden;
+			position: relative;
+			box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 24px;
+			border-bottom: 2px solid #d4af37;
+		}
+		.navbar .nav-center {
+			display: flex;
+			gap: 8px;
+			margin: 0 auto;
+		}
+		.navbar a {
+			color: #e0e0e0;
+			text-align: center;
+			padding: 14px 20px;
+			text-decoration: none;
+			font-size: 15px;
+			border-radius: 2px;
+			transition: background 0.3s, color 0.3s;
+			font-weight: 500;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+		.navbar a:hover {
+			background-color: #d4af37;
+			color: #1f1f1f;
+		}
+		.navbar .brand {
+			margin-left: auto;
+			color: #d4af37;
+			font-size: 20px;
+			font-weight: bold;
+			padding: 14px 32px;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+		}
+		.banner {
+			width: 100%;
+			min-height: 320px;
+			background: linear-gradient(120deg, #1f1f1f 0%, #2a2a2a 50%, #d4af37 100%);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+			border-radius: 0;
+			margin-bottom: 40px;
+			animation: fadeInDown 1s;
+			border-bottom: 3px solid #d4af37;
+		}
+		.banner h1 {
+			color: #d4af37;
+			font-size: 3.2em;
+			margin: 0;
+			text-shadow: 3px 3px 12px rgba(0,0,0,0.8);
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+		.content {
+			max-width: 1000px;
+			margin: 0 auto;
+			padding: 0 20px 40px 20px;
+		}
+		.intro {
+			background: #2a2a2a;
+			border: 1px solid #3a3a3a;
+			padding: 40px 32px;
+			margin-bottom: 40px;
+			text-align: center;
+		}
+		.intro p {
+			line-height: 1.8;
+			font-size: 16px;
+			color: #e0e0e0;
+		}
+		.projects-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			gap: 24px;
+		}
+		.project-card {
+			background: #2a2a2a;
+			border: 1px solid #3a3a3a;
+			overflow: hidden;
+			transition: transform 0.3s, box-shadow 0.3s;
+		}
+		.project-card:hover {
+			transform: translateY(-4px);
+			box-shadow: 0 8px 24px rgba(212, 175, 55, 0.2);
+		}
+		.project-image {
+			width: 100%;
+			height: 250px;
+			background: linear-gradient(135deg, #3a3a3a 0%, #4a4a4a 100%);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #d4af37;
+			font-size: 48px;
+			border-bottom: 2px solid #d4af37;
+		}
+		.project-content {
+			padding: 24px;
+		}
+		.project-content h3 {
+			color: #d4af37;
+			margin: 0 0 8px 0;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-size: 16px;
+		}
+		.project-category {
+			color: #a0a0a0;
+			font-size: 12px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			margin-bottom: 12px;
+		}
+		.project-content p {
+			color: #e0e0e0;
+			font-size: 14px;
+			line-height: 1.6;
+			margin: 0;
+		}
+		@keyframes fadeInDown {
+			from { opacity: 0; transform: translateY(-40px); }
+			to { opacity: 1; transform: translateY(0); }
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<div class="nav-center">
+			<a href="home.html">Home</a>
+			<a href="about.html">Over mij</a>
+			<a href="projects.html">Projecten</a>
+			<a href="contact.html">Contact</a>
+		</div>
+		<span class="brand">ArtisinalFusion</span>
+	</div>
+	<div class="banner">
+		<h1>Projecten</h1>
+	</div>
+	<div class="content">
+		<div class="intro">
+			<p>Elk project vertelt een verhaal. Dit zijn enkele van mijn recente creaties – allemaal met liefde en aandacht voor detail gemaakt. Zie je iets wat je aanspricht? Laat het me weten!</p>
+		</div>
+
+		<div class="projects-grid">
+			<div class="project-card">
+				<img src="snijplank.jpeg" alt="Design Snijplank" style="width: 100%; height: 250px; object-fit: cover; display: block; border-bottom: 2px solid #d4af37;">
+				<div class="project-content">
+					<h3>Snijplank</h3>
+					<p class="project-category">Keuken</p>
+					<p>Handgemaakte snijplank van mooi esdoornhout. Duurzaam en praktisch voor dagelijks gebruik.</p>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<img src="tafel.jpeg" alt="Salonstafel" style="width: 100%; height: 250px; object-fit: cover; display: block; border-bottom: 2px solid #d4af37;">
+				<div class="project-content">
+					<h3>Salonstafel</h3>
+					<p class="project-category">Meubel</p>
+					<p>Een tijdloos stuk waarin functionaliteit en schoonheid elkaar ontmoeten. Vakkundig uit massief hout gewerkt.</p>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<img src="inloop kast.jpeg" alt="Inloopkast" style="width: 100%; height: 250px; object-fit: cover; display: block; border-bottom: 2px solid #d4af37;">
+				<div class="project-content">
+					<h3>Inloopkast</h3>
+					<p class="project-category">Opberging</p>
+					<p>Prachtige inloopkast op maat gemaakt. Perfect georganiseerd met speciale indelingen voor kleding en accessoires.</p>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="project-image">🪟</div>
+				<div class="project-content">
+					<h3>Zitbank</h3>
+					<p class="project-category">Custom Design</p>
+					<p>Handgemaakte zitbank naar wens van de klant. Noten hout met stof bekleding.</p>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="project-image">📚</div>
+				<div class="project-content">
+					<h3>Boekenkasten</h3>
+					<p class="project-category">Woonkamer</p>
+					<p>Set van drie zwevende kasten in gerecycled hout. Minimalistische lijnen.</p>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="project-image">🪑</div>
+				<div class="project-content">
+					<h3>Stoelen</h3>
+					<p class="project-category">Meubel</p>
+					<p>Set van ergonomische stoelen met gevoerde zitting. Perfect als accent pieces.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

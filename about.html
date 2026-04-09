@@ -1,0 +1,203 @@
+<html>
+<head>
+	<title>Over Mij - ArtisinalFusion</title>
+	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23d4af37' width='100' height='100'/><text x='50' y='70' font-size='60' font-weight='bold' text-anchor='middle' fill='%231f1f1f' font-family='Arial'>AF</text></svg>">
+	<style>
+		body {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			margin: 0;
+			padding: 0;
+			background: #1a1a1a;
+			background-image: url('https://www.transparenttextures.com/patterns/dark-wood.png');
+			color: #e0e0e0;
+		}
+		.navbar {
+			background-color: #1f1f1f;
+			overflow: hidden;
+			position: relative;
+			box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 24px;
+			border-bottom: 2px solid #d4af37;
+		}
+		.navbar .nav-center {
+			display: flex;
+			gap: 8px;
+			margin: 0 auto;
+		}
+		.navbar a {
+			color: #e0e0e0;
+			text-align: center;
+			padding: 14px 20px;
+			text-decoration: none;
+			font-size: 15px;
+			border-radius: 2px;
+			transition: background 0.3s, color 0.3s;
+			font-weight: 500;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+		.navbar a:hover {
+			background-color: #d4af37;
+			color: #1f1f1f;
+		}
+		.navbar .brand {
+			margin-left: auto;
+			color: #d4af37;
+			font-size: 20px;
+			font-weight: bold;
+			padding: 14px 32px;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+		}
+		.banner {
+			width: 100%;
+			min-height: 320px;
+			background: linear-gradient(120deg, #1f1f1f 0%, #2a2a2a 50%, #d4af37 100%);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+			border-radius: 0;
+			margin-bottom: 40px;
+			animation: fadeInDown 1s;
+			border-bottom: 3px solid #d4af37;
+		}
+		.banner h1 {
+			color: #d4af37;
+			font-size: 3.2em;
+			margin: 0;
+			text-shadow: 3px 3px 12px rgba(0,0,0,0.8);
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+		.content {
+			max-width: 900px;
+			margin: 0 auto;
+			padding: 0 20px;
+		}
+		.section {
+			background: #2a2a2a;
+			border: 1px solid #3a3a3a;
+			padding: 40px 32px;
+			margin-bottom: 24px;
+			animation: fadeIn 1.2s;
+		}
+		.section h2 {
+			color: #d4af37;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-size: 24px;
+			margin-top: 0;
+		}
+		.section p {
+			line-height: 1.8;
+			font-size: 16px;
+			color: #e0e0e0;
+		}
+		.grid-2 {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 24px;
+			margin-top: 24px;
+		}
+		.grid-item {
+			background: #1f1f1f;
+			border-left: 3px solid #d4af37;
+			padding: 20px;
+		}
+		.grid-item h3 {
+			color: #d4af37;
+			text-transform: uppercase;
+			font-size: 14px;
+			letter-spacing: 1px;
+			margin-top: 0;
+		}
+		.grid-item p {
+			margin: 0;
+			font-size: 15px;
+		}
+		@keyframes fadeInDown {
+			from { opacity: 0; transform: translateY(-40px); }
+			to { opacity: 1; transform: translateY(0); }
+		}
+		@keyframes fadeIn {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<div class="nav-center">
+			<a href="home.html">Home</a>
+			<a href="about.html">Over mij</a>
+			<a href="projects.html">Projecten</a>
+			<a href="contact.html">Contact</a>
+		</div>
+		<span class="brand">ArtisinalFusion</span>
+	</div>
+	<div class="banner">
+		<h1>Over Mij</h1>
+	</div>
+	<div class="content">
+		<div class="section">
+			<h2>Wie ben ik?</h2>
+			<p>Hallo! Ik ben Glenn Bollen, meubelmaker en oprichter van ArtisinalFusion. Als starter in het ambacht heb ik grote passie voor het maken van unieke, handgemaakte meubels die perfect aansluiten op jouw wensen en leefstijl.</p>
+			<p>Mijn passie voor vakmanschap en oog voor detail zijn de basis van alles wat ik maak. Ik geloof in kwaliteit boven kwantiteit en werk uitsluitend met hoogwaardige materialen.</p>
+		</div>
+
+		<div class="section">
+			<h2>Mijn Aanpak</h2>
+			<p>Elk project begint met een persoonlijk gesprek. Ik luister naar jouw ideeën, begrijp jouw visie en transformeer die in een meubel dat werkelijk uniek voor jou is.</p>
+			<div class="grid-2">
+				<div class="grid-item">
+					<h3>Ontwerp</h3>
+					<p>Samen ontwerpen we je droommeubel, rekening houdend met functionaliteit en esthetiek.</p>
+				</div>
+				<div class="grid-item">
+					<h3>Materiaalkeuze</h3>
+					<p>Selectie van premium hout en materialen die passen bij jouw stijl en budget.</p>
+				</div>
+				<div class="grid-item">
+					<h3>Craftsmanship</h3>
+					<p>Handmatig vervaardigd met traditionele technieken en moderne precisie.</p>
+				</div>
+				<div class="grid-item">
+					<h3>Afwerking</h3>
+					<p>Zorgvuldige afwerking met de beste behandelingen en beschermende coatings.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<h2>Specialisaties</h2>
+			<p>Ik werk aan verschillende soorten projecten:</p>
+			<div class="grid-2">
+				<div class="grid-item">
+					<h3>Interieur Meubels</h3>
+					<p>Kasten, tafels, stoelen en andere woonkamer stukken op maat.</p>
+				</div>
+				<div class="grid-item">
+					<h3>Kantoor & Werkruimte</h3>
+					<p>Professionele meubels die functionaliteit en stijl combineren.</p>
+				</div>
+				<div class="grid-item">
+					<h3>Custom Designs</h3>
+					<p>Volledig unieke ontwerpen voor specifieke ruimtes.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<h2>Waarom ArtisinalFusion?</h2>
+			<p><strong>Kwaliteit:</strong> Elk detail krijgt aandacht. Ik gebruik alleen de beste materialen en technieken.</p>
+			<p><strong>Duurzaamheid:</strong> Meubels die decennialang meegaan, niet jaren. Goed voor jou en voor de planeet.</p>
+			<p><strong>Persoonlijk:</strong> Je krijgt direct contact met de maker. Geen tussenhandelaren, geen compromissen.</p>
+			<p><strong>Uniek:</strong> Wat je krijgt bestaat nergens anders. Echt artisanaal gemaakt voor jou.</p>
+		</div>
+	</div>
+</body>
+</html>

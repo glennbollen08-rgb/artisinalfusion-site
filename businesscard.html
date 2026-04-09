@@ -1,0 +1,128 @@
+<html>
+<head>
+	<title>Visitekaartje - ArtisinalFusion</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			background: #e0e0e0;
+			padding: 40px 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+		}
+		.page {
+			background: white;
+			padding: 40px;
+		}
+		.business-card {
+			width: 90mm;
+			height: 50mm;
+			background: linear-gradient(135deg, #1f1f1f 0%, #2a2a2a 100%);
+			border: 2px solid #d4af37;
+			display: flex;
+			font-family: 'Segoe UI', sans-serif;
+			color: #e0e0e0;
+			box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+		}
+		.card-left {
+			background: #d4af37;
+			width: 15mm;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #1f1f1f;
+			font-size: 24px;
+			font-weight: bold;
+			letter-spacing: 2px;
+			writing-mode: vertical-rl;
+			text-orientation: mixed;
+		}
+		.card-content {
+			flex: 1;
+			padding: 8mm 10mm;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		.card-header {
+			border-bottom: 1px solid #d4af37;
+			padding-bottom: 6mm;
+		}
+		.card-name {
+			font-size: 14px;
+			font-weight: bold;
+			color: #d4af37;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+		}
+		.card-title {
+			font-size: 10px;
+			color: #b0b0b0;
+			margin-top: 2px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+		}
+		.card-details {
+			font-size: 8px;
+			color: #a0a0a0;
+			line-height: 1.6;
+		}
+		.card-details div {
+			margin: 1mm 0;
+		}
+		.label {
+			color: #d4af37;
+			font-weight: bold;
+		}
+		.footer {
+			text-align: center;
+			margin-top: 40px;
+			color: #666;
+			font-size: 12px;
+		}
+		.footer p {
+			margin: 10px 0;
+		}
+		@media print {
+			body {
+				background: white;
+				padding: 0;
+			}
+			.page {
+				padding: 0;
+				background: white;
+			}
+			.footer {
+				display: none;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="page">
+		<div class="business-card">
+			<div class="card-left">AF</div>
+			<div class="card-content">
+				<div class="card-header">				<div style="color: #d4af37; font-size: 9px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 4px;">ArtisinalFusion</div>					<div class="card-name">Glenn Bollen</div>
+					<div class="card-title">Meubelmaker</div>
+				</div>
+				<div class="card-details">
+					<div><span class="label">📧</span> info@artisinalfusion.nl</div>
+					<div><span class="label">📞</span> 06-12345678</div>
+					<div><span class="label">🌐</span> artisinalfusion.nl</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p><strong>Afdrukken:</strong> Dit visitekaartje is ontworpen voor standaard creditcard formaat (90x50mm)</p>
+			<p>Druk op wit glanzend papier voor het beste resultaat</p>
+		</div>
+	</div>
+</body>
+</html>

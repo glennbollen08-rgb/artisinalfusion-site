@@ -1,0 +1,123 @@
+<html>
+<head>
+	<title>Home</title>
+	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23d4af37' width='100' height='100'/><text x='50' y='70' font-size='60' font-weight='bold' text-anchor='middle' fill='%231f1f1f' font-family='Arial'>AF</text></svg>">
+	<style>
+		body {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			margin: 0;
+			padding: 0;
+			background: #1a1a1a;
+			background-image: url('https://www.transparenttextures.com/patterns/dark-wood.png');
+			color: #e0e0e0;
+		}
+		.navbar {
+			background-color: #1f1f1f;
+			overflow: hidden;
+			position: relative;
+			box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 24px;
+			border-bottom: 2px solid #d4af37;
+		}
+		.navbar .nav-center {
+			display: flex;
+			gap: 8px;
+			margin: 0 auto;
+		}
+		.navbar a {
+			color: #e0e0e0;
+			text-align: center;
+			padding: 14px 20px;
+			text-decoration: none;
+			font-size: 15px;
+			border-radius: 2px;
+			transition: background 0.3s, color 0.3s;
+			font-weight: 500;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+		.navbar a:hover {
+			background-color: #d4af37;
+			color: #1f1f1f;
+		}
+		.navbar .brand {
+			margin-left: auto;
+			color: #d4af37;
+			font-size: 20px;
+			font-weight: bold;
+			padding: 14px 32px;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+		}
+		.banner {
+			width: 100%;
+			min-height: 320px;
+			background: linear-gradient(120deg, #1f1f1f 0%, #2a2a2a 50%, #d4af37 100%);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+			border-radius: 0;
+			margin-bottom: 40px;
+			animation: fadeInDown 1s;
+			border-bottom: 3px solid #d4af37;
+		}
+		.banner h1 {
+			color: #d4af37;
+			font-size: 3.2em;
+			margin: 0;
+			text-shadow: 3px 3px 12px rgba(0,0,0,0.8);
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+		.content {
+			padding: 40px 32px;
+			background: #2a2a2a;
+			max-width: 900px;
+			margin: 0 auto;
+			border: 1px solid #3a3a3a;
+			animation: fadeIn 1.2s;
+		}
+		.content h2 {
+			color: #d4af37;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-size: 24px;
+		}
+		.content p {
+			line-height: 1.8;
+			font-size: 16px;
+			color: #e0e0e0;
+		}
+		@keyframes fadeInDown {
+			from { opacity: 0; transform: translateY(-40px); }
+			to { opacity: 1; transform: translateY(0); }
+		}
+		@keyframes fadeIn {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<div class="nav-center">
+			<a href="home.html">Home</a>
+			<a href="about.html">Over mij</a>
+			<a href="projects.html">Projecten</a>
+			<a href="contact.html">Contact</a>
+		</div>
+		<span class="brand">ArtisinalFusion</span>
+	</div>
+	<div class="banner">
+		<h1>Meubelmakerij ArtisinalFusion</h1>
+	</div>
+	<div class="content">
+		<h2>Welkom!</h2>
+		<p>Bij ArtisinalFusion maken we unieke meubels op maat, met passie voor vakmanschap en oog voor detail. Bekijk onze projecten of neem contact op voor jouw droommeubel!</p>
+	</div>
+</body>
+</html>
